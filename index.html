@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ch-zn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的记事本</title>
+    <style>
+      body {
+        background-color: #00ddff;
+      }
+      .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .button {
+        border: none;
+        margin: 20px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 15px;
+        height: 100px;
+        width: 200px;
+      }
+      .button2:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+          0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      }
+      p {
+        color: white;
+        font-size: 40px;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex" style="height: 400px">
+      <img
+        src="头像.png"
+        alt="头像"
+        style="height: 150px; width: 150px; margin: 20px"
+      />
+    </div>
+    <div class="flex" style="height: 350px">
+      <a href="code.html"
+        ><button class="button button2" style="background-color: #5b5b66">
+          <p>编程</p>
+        </button>
+      </a>
+      <button class="button button2" style="background-color: #ff9aa2">
+        <p>大厨</p>
+      </button>
+      <button class="button button2" style="background-color: #ab71ff">
+        <p>图片</p>
+      </button>
+      <button class="button button2" style="background-color: #ffa436">
+        <p>要事</p>
+      </button>
+    </div>
+  </body>
+</html>
